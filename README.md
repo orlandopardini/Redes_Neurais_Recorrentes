@@ -70,9 +70,3 @@ As RNNs foram avaliadas com as métricas de:
 - **Visualização temporal das previsões**
 - **Comparação entre série real e prevista**
 """
-
-# Caminho para salvar o novo README
-readme_path_rnn = Path("/mnt/data/README_RNN.md")
-readme_path_rnn.write_text(readme_rnn, encoding="utf-8")
-
-readme_path_rnn
